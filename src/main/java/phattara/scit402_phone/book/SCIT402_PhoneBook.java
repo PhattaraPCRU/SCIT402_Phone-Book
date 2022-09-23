@@ -177,6 +177,8 @@ public class SCIT402_PhoneBook extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
+        tb_output.setGridColor(new java.awt.Color(0, 0, 0));
+        tb_output.setShowGrid(true);
         jScrollPane1.setViewportView(tb_output);
 
         btn_add.setText("Add");
